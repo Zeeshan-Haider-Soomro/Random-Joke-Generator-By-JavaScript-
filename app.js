@@ -1,3 +1,8 @@
+
+let date = new Date()
+let yearChanger = document.querySelector("#yearChanger")
+yearChanger.innerText = date.getFullYear()
+
 function randomJokeGenerator(){
     jokes_urdu = [
         "ایک بچہ اپنی ماں سے: ماں مجھے اپنی ننھی سی کیا داستان سناؤ۔ ماں: بیٹا جب میں چھوٹی تھی تو میں نے تیری دادی سے کہا تھا کہ میں بڑی ہو کر کیا بنوں گی؟ تیری دادی نے کہا تھا بیٹا جب تو بڑی ہو جائی گی تو اپنی ننھی سی داستان سنائیں گی۔",

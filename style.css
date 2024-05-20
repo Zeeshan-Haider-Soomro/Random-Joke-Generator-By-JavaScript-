@@ -6,10 +6,15 @@
 }
 body{
     background: linear-gradient(120deg, #123421, #987335);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+    width: auto;
 }
 .box{
     width: 500px;
@@ -41,4 +46,20 @@ body{
 }
 h1{
     color: #123421;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 100px;
+}
+@media screen and (min-width: 515){
+    .box{
+        width: 100px;
+        height: 300px;
+    }
+    
 }
